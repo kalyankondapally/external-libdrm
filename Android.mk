@@ -39,7 +39,7 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := \
 	$(LOCAL_PATH)/include/drm
 
 LOCAL_C_INCLUDES := \
-	$(LOCAL_PATH)/include/drm
+	$(LOCAL_PATH)/inclu
 
 include $(LIBDRM_COMMON_MK)
 include $(BUILD_STATIC_LIBRARY)
