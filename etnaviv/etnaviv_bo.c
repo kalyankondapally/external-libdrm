@@ -92,7 +92,7 @@ static struct etna_bo *bo_from_handle(struct etna_device *dev,
 
 		drmIoctl(dev->fd, DRM_IOCTL_GEM_CLOSE, &req);
 
-		return NULL;
+		return NULL
 	}
 
 	bo->dev = etna_device_ref(dev);
